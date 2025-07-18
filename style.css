@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Lucida Console;
+  font-color: #282828;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+input[type=button] {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #282828;
+  cursor: pouinter;
+  overflow: hidden;
+  outline: #282828 none medium;
+  color: #282828;  
+}
+
+input[type=file] {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #282828;
+  cursor: pouinter;
+  overflow: hidden;
+  outline: #282828 none medium;
+  color: #282828; 
+}
+
+#importfile::-webkit-file-upload-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #282828;
+  cursor: pouinter;
+  overflow: hidden;
+  outline: #282828 none medium;
+  color: #282828; 
+}
+
+.slider {
+  width: 200px;
+  margin: 100px auto;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  border: none;
+  padding: 1px 2px;
+  border-radius: 14px;
+  background: #232528;
+  //  box-shadow: inset 0 1px 0 0 #0d0e0f, inset 0 -1px 0 0 #3a3d42;
+  //  -webkit-box-shadow: inset 0 1px 0 0 #0d0e0f, inset 0 -1px 0 0 #3a3d42;
+  outline: none;
+}
+
+input[type="range"]::-moz-range-track {
+  border: inherit;
+  background: transparent;
+}
+
+input[type="range"]::-ms-track {
+  border: inherit;
+  color: transparent;
+  background: transparent;
+}
+
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+  background: transparent;
+}
+
+input[type="range"]::-ms-tooltip {
+  display: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 18px;
+  border: none;
+  border-radius: 12px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #888888), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(top , #888888 0, #888888 100%);
+  background-image: linear-gradient(to bottom, #888888 0, #888888 100%);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 40px;
+  height: 18px;
+  border: none;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom, #888888 0, #888888 100%);
+}
+
+input[type="range"]::-ms-thumb {
+  width: 40px;
+  height: 18px;
+  border-radius: 12px;
+  border: 0;
+  background-image: linear-gradient(to bottom, #888888 0, #888888 100%); 
+}
+
+progress {
+  width: 400px;
+  height: 14px;
+  margin: 20px auto;
+  display: block;
+  -webkit-appearance: none;
+  border: none;
+}
+
+#PopUpXButton
+{
+  color: red;
+  border-color: red;
+}
